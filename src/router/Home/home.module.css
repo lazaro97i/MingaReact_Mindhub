@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionContainer{
+    background-image: url('../../../public/bg-home.jpg');
+    background-position: center 10%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 3rem;
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.pHome{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-size: 1.5rem;
+    width: 90%;
+    text-align: center;
+}
+.btnHome{
+    text-decoration: none;
+    background: linear-gradient(87.46deg, #4338CA 0%, #5E52F3 100%);
+    color: #fff;
+    padding: .8rem 5rem;
+    font-size: 1.5em;
+    font-weight: 500;
+    border-radius: 6px;
+}
+.infoContainer{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.infoComic{
+    width: 90%;
+    height: 65%;
+    background: linear-gradient(87.46deg, #4338CA 0%, #5E52F3 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+.infoDetail{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+.description{
+    width: 40%;
+    max-height: 220px;
+    color: #fff;
+    text-align: justify;
+}
+.comicTitle{
+    text-align: start;
+    font-weight: 500;
+}
+.comicCategory{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: medium;
+    text-align: start;
+}
+.comicDescription{
+    font-size: 1rem;
+    text-align: justify;
+    padding: 1rem 0rem;
+}
+.portada{
+    margin-top: -4rem;
+    height: 250px;
+}

@@ -1,16 +1,15 @@
-// import logo from './logo.svg';
 import './App.css';
+import { Provider } from 'react-redux';
+import { RouterProvider } from 'react-router'
+import indexRouter from './router';
+import store from './store/store.js'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>MINGA</h1>
-        <p>
-          App para realizar con el cohorte 40
-        </p>
-      </header>
-    </div>
+    <Provider store={store}>
+      <RouterProvider router={indexRouter} />
+    </Provider>
   );
 }
 
