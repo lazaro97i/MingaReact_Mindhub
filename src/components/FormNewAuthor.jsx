@@ -5,7 +5,8 @@ const FormNewAuthor = () => {
 
     let inpName = useRef('')
     let inpLastName = useRef('')
-    let inpAdd = useRef('')
+    let inpCity = useRef('')
+    let inpCountry = useRef('')
     let inpDate = useRef('')
     let inpImage = useRef('')
 
@@ -13,7 +14,8 @@ const FormNewAuthor = () => {
         const data = {
             name: inpName.current.value,
             lastName: inpLastName.current.value,
-            address: inpAdd.current.value,
+            city: inpCity.current.value,
+            country: inpCountry.current.value,
             date: inpDate.current.value,
             image: inpImage.current.value
         }
@@ -42,10 +44,17 @@ const FormNewAuthor = () => {
                     />
                     <input
                         type="text"
-                        name="address"
-                        className={style.address}
-                        placeholder="Address"
-                        ref={inpAdd}
+                        name="city"
+                        className={style.city}
+                        placeholder="City"
+                        ref={inpCity}
+                    />
+                    <input
+                        type="text"
+                        name="country"
+                        className={style.country}
+                        placeholder="Country"
+                        ref={inpCountry}
                     />
                     <input
                         type="date"
