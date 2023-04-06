@@ -33,7 +33,7 @@
 }
 .subscribe p{
     font-size: 2.5rem;
-    margin: 0 2rem;
+    margin: 0;
 }
 .inp{
     border: 2px solid rgba(0, 0, 0, 0.082);
@@ -42,6 +42,22 @@
     justify-content: space-between;
     border-radius: 5px;
     gap: 1rem;
+}
+@media only screen and (max-width: 934px) {
+    .inp{
+        border: 2px solid rgba(0, 0, 0, 0.082);
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        gap: 1rem;
+    }
+    .email::placeholder{
+        color: #4438ca56;
+        text-align: center;
+    }
 }
 .email{
     font-size: 1.2rem;
@@ -60,9 +76,27 @@
 .email::placeholder{
     color: #4438ca56;
 }
+@media only screen and (max-width: 767px){
+    .inp{
+        width: 90%;
+    }
+    .send{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 52.59px;
+        max-width: 248.86px;
+        padding: 0;
+    }
+    .email{
+        width: 90%;
+    }
+}
 
 .infoContainer{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 2rem;
     border-bottom: 2px solid rgba(0, 0, 0, 0.062);
@@ -99,4 +133,12 @@
     text-decoration: none;
     padding: .5rem 3.5rem;
     border-radius: 50px;
+}
+@media only screen and (max-width: 570px){
+    .logoFooter{
+        display: none;
+    }
+    .infoContainer{
+        gap: 2rem
+    }
 }

@@ -12,6 +12,10 @@ const Nav = () => {
             path: '/',
             name: 'Home'
         },
+        {
+            path: '/new-author',
+            name: 'New Author'
+        },
     ]
 
     const togleMenu = () => {
@@ -33,14 +37,17 @@ const Nav = () => {
                     <path d="M2 3H28"
                         strokeWidth="3"
                         strokeLinecap="round"
+                        className={style.menuPart}
                     />
                     <path d="M2 13H28"
                         strokeWidth="3"
                         strokeLinecap="round"
+                        className={style.menuPart}
                     />
                     <path d="M2 23H28"
                         strokeWidth="3"
                         strokeLinecap="round"
+                        className={style.menuPart}
                     />
                 </svg>
                 <Link to={'/'}>

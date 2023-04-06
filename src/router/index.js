@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom"
 import Layout from "../layouts/Layout/Layout"
-import Home from "./Home/Home"
+import Home from "../pages/Home/Home"
+import NewAuthor from "../pages/NewAuthor/NewAuthor"
 
 
 const indexRouter = createBrowserRouter ([
@@ -11,6 +12,10 @@ const indexRouter = createBrowserRouter ([
             {
                 path: '/',
                 element: <Home/>,
+            },
+            {
+                path: '/new-author',
+                element: <NewAuthor />
             }
         ]
     }

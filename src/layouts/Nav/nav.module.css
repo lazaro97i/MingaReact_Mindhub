@@ -1,5 +1,5 @@
 .menuContainer{
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -14,6 +14,6 @@
 .iconMenu{
     display: flex;
     align-items: center;
-    stroke: #EBEBEB;
     cursor: pointer;
+    stroke: #4338CA;
 }
