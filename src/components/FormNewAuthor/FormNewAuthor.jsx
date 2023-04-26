@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import authorActions from '../store/authors/actions'
+import authorActions from '../../store/authors/actions.js'
 import { Toaster, toast } from 'react-hot-toast'
 import style from './fromNewAuthor.module.css'
 
@@ -32,7 +32,6 @@ const FormNewAuthor = () => {
     }
 
     const sendAuthor = (e) => {
-        e.preventDefault()
         const data = {
             name: inpName.current.value,
             last_name: inpLast_name.current.value,
@@ -52,9 +51,6 @@ const FormNewAuthor = () => {
         }else{
             errorAlert()
         }
-        // if(storeAuthor?.author?.success === false ){
-        //     errorAlert()
-        // }
     }, [sendAuthor])
     
 

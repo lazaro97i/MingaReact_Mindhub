@@ -16,6 +16,10 @@ const Nav = () => {
             path: '/new-author',
             name: 'New Author'
         },
+        {
+            path: '/new-company',
+            name: 'New Company'
+        },
     ]
 
     const togleMenu = () => {

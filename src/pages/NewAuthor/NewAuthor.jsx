@@ -1,5 +1,5 @@
 import React from 'react'
-import FormNewAuthor from '../../components/FormNewAuthor'
+import FormNewAuthor from '../../components/FormNewAuthor/FormNewAuthor'
 
 const NewAuthor = () => {
     return (
