@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.subscribeContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgFooter{
+    width: 100%;
+    height: 10%;
+    max-height: 320px;
+    border-radius: 0 0 40% 40%;
+}
+.subscribe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    padding-top: 4rem;
+    margin-top: -2.5rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    width: 70%;
+    border-radius: 10px;
+    box-shadow: 0px 42px 59px -30px rgba(0,0,0,0.1);
+    gap: 1rem;
+}
+.subscribe p{
+    font-size: 2.5rem;
+    margin: 0;
+}
+.inp{
+    border: 2px solid rgba(0, 0, 0, 0.082);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    gap: 1rem;
+}
+@media only screen and (max-width: 934px) {
+    .inp{
+        border: 2px solid rgba(0, 0, 0, 0.082);
+        padding: 1rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        gap: 1rem;
+    }
+    .email::placeholder{
+        color: #4438ca56;
+        text-align: center;
+    }
+}
+.email{
+    font-size: 1.2rem;
+    padding: .5rem;
+    border: none;
+    outline: none;
+}
+.send{
+    text-decoration: none;
+    background: linear-gradient(87.46deg, #4338CA 0%, #5E52F3 100%);
+    color: #fff;
+    padding: .8rem 5rem;
+    font-size: 1.3em;
+    border-radius: 6px;
+}
+.email::placeholder{
+    color: #4438ca56;
+}
+@media only screen and (max-width: 767px){
+    .inp{
+        width: 90%;
+    }
+    .send{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        height: 52.59px;
+        max-width: 248.86px;
+        padding: 0;
+    }
+    .email{
+        width: 90%;
+    }
+}
+
+.infoContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.062);
+    margin-bottom: 1rem;
+}
+.btnFooter{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.btn{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #000;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.sNetworks{
+    display: flex;
+    gap: 1rem;
+}
+.linkNet{
+    width: 30px;
+}
+.donate{
+    background: linear-gradient(87.46deg, #4338CA 0%, #5E52F3 100%);
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 3.5rem;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 570px){
+    .logoFooter{
+        display: none;
+    }
+    .infoContainer{
+        gap: 2rem
+    }
+}

@@ -1,0 +1,19 @@
+.menuContainer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    background: transparent;
+    padding: 2em 2em 0 2em;
+}
+.iconMenu{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    stroke: #4338CA;
+}

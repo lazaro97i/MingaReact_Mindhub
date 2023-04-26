@@ -1,0 +1,68 @@
+.nav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #4338CA;
+    min-height: screen;
+    max-width: 320px;
+    z-index: 30;
+}
+.navClose{
+    width: 0;
+}
+.cancelContainer{
+    display: flex;
+    justify-content: flex-end;
+    padding: .5rem;
+}
+.cancel{
+    width: 35px;
+    margin: .5rem;
+    cursor: pointer;
+}
+.ulRoutes{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+}
+.liRoutes{
+    margin: 0;
+    margin: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.liItem{
+    display: inline;
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+    padding: .5rem .5rem;
+    border-radius: 10px;
+}
+.liItem:hover{
+    background-color: #fff;
+    color: #4338CA;
+    transition: .5s;
+}
+.bgNav{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    overflow: hidden;
+    background-color: #00000096;
+    z-index: 20;
+    backdrop-filter: blur(1px);
+}
+.bgNavClose{
+    width: 0;
+}
