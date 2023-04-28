@@ -3,6 +3,7 @@ import Layout from "../layouts/Layout/Layout"
 import Home from "../pages/Home/Home"
 import NewAuthor from "../pages/NewAuthor/NewAuthor"
 import NewCompany from "../pages/NewCompany/NewCompany"
+import NewManga from "../pages/NewManga/NewManga"
 
 
 const indexRouter = createBrowserRouter ([
@@ -21,6 +22,10 @@ const indexRouter = createBrowserRouter ([
             {
                 path: '/new-company',
                 element: <NewCompany />
+            },
+            {
+                path: '/new-manga',
+                element: <NewManga />
             }
         ]
     }

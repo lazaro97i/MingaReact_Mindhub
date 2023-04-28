@@ -20,6 +20,10 @@ const Nav = () => {
             path: '/new-company',
             name: 'New Company'
         },
+        {
+            path: '/new-manga',
+            name: 'New Manga'
+        }
     ]
 
     const togleMenu = () => {
