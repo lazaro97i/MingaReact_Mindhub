@@ -35,6 +35,7 @@ const FormNewCompany = () => {
             logo: inpLogo.current.value,
             website: inpWeb.current.value,
             description: inpDesc.current.value,
+            user_id: '6414c441f8845dbab347bde9'
         }
         dispatch(createCompany(data))
     }
